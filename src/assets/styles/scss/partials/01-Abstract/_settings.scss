@@ -142,3 +142,9 @@ $colours: ( "white": hsl(0deg, 0%, 100%), "grey-100": hsl(0deg, 0%, 97%), "grey-
     src: url('/assets/fonts/Metropolis-Bold.woff2') format('woff2');
     font-display: swap;
 }
+
+@font-face {
+    font-family: Metropolis-ExtraBold;
+    src: url('/assets/fonts/Metropolis-ExtraBold.woff2') format('woff2');
+    font-display: swap;
+}

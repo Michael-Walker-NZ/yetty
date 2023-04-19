@@ -1,6 +1,6 @@
 {
-    "name": "Portlr",
-    "short_name": "Portlr",
+    "name": "portlr",
+    "short_name": "portlr",
     "theme_color": "#ffffff",
     "background_color": "#004740",
     "display": "fullscreen",

@@ -80,6 +80,7 @@
   --space-sm-8n: -0.5rem;
   --space-sm-4n: -0.25rem;
   --space-sm-2n: -0.125rem;
+  --space-sm-1n: -0.06rem;
   --space-0: 0;
   --space: 0.025rem;
   --space-sm-1: 0.06rem;
@@ -111,6 +112,11 @@
 @font-face {
   font-family: Metropolis-Bold;
   src: url("/assets/fonts/Metropolis-Bold.woff2") format("woff2");
+  font-display: swap; }
+
+@font-face {
+  font-family: Metropolis-ExtraBold;
+  src: url("/assets/fonts/Metropolis-ExtraBold.woff2") format("woff2");
   font-display: swap; }
 
 .img-responsive, .img-post, .img-accent, .img-full, .img-restricted {
@@ -236,7 +242,8 @@ pre {
   direction: ltr;
   word-break: normal;
   tab-size: 2;
-  hyphens: none; }
+  -webkit-hyphens: none; 
+  hyphens:none;}
 
 pre[class*="language-"] {
   display: block;
@@ -279,8 +286,9 @@ h1,
 .h1 {
   margin-top: 0;
   font-size: var(--font-size-h1);
-  font-size: clamp(1.953rem, 8.3vw - 2rem, 3.052rem);
-  line-height: 1.1; }
+  font-size: clamp(2.953rem, 8.3vw - 2rem, 5.052rem);
+  line-height: 1.1;
+  font-family: Metropolis-ExtraBold; }
   h1 > .direct-link,
   .h1 > .direct-link {
     display: none; }
@@ -398,8 +406,8 @@ h6,
 
 .menu__item {
   font-size: var(--font-size-sm);
-  font-weight: 500;
-  letter-spacing: var(--space-sm-1);
+  font-weight: 600;
+  letter-spacing: var(--space-0);
   text-transform: uppercase; }
 
 .menu__link {
@@ -696,6 +704,8 @@ header {
       flex-direction: row; } }
 
 .home {
+  
+  width: -moz-fit-content;
   width: fit-content;
   margin: var(--space-lg-1h);
   padding: var(--space-sm-6) var(--space-sm-8) var(--space-sm-6) var(--space-sm-8);
@@ -889,7 +899,7 @@ header {
 .post__next--label {
   font-size: var(--font-size-sm);
   font-weight: 500;
-  letter-spacing: var(--space-sm-1);
+  letter-spacing: var(--space-0);
   text-transform: uppercase; }
   .post__prev--label::after,
   .post__next--label::after {

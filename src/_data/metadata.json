@@ -1,28 +1,28 @@
 {
-    "title": "Portlr",
-    "url": "https://Portlr.netlify.app",
-    "description": "Yet another Eleventy starter kit for my (& your) new projects with accessibility and performance in mind.",
-    "repo": "https://github.com/ygoex/Portlr",
+    "title": "portlr",
+    "url": "https://portlr.netlify.app",
+    "description": "The easiest way to design beautiful open-living spaces.",
+    "repo": "https://github.com/mike/Portlr",
     "feed": {
-        "subtitle": "Yet another Eleventy starter kit for my (& your) new projects with accessibility and performance in mind.",
+        "subtitle": "The easiest way to design beautiful open-living spaces.",
         "filename": "feed.xml",
         "path": "/feed/feed.xml",
-        "id": "https://Portlr.netlify.app/"
+        "id": "https://portlr.netlify.app/"
     },
     "jsonfeed": {
         "path": "/feed/feed.json",
-        "url": "https://Portlr.netlify.app/feed/feed.json"
+        "url": "https://portlr.netlify.app/feed/feed.json"
     },
     "author": {
-        "name": "Yolanda Gorriz Exposito",
-        "email": "helloygoex@gmail.com",
-        "username": "ygoex",
-        "url": "https://Portlr.netlify.app/about-me/",
-        "github": "https://github.com/ygoex",
-        "twitter": "https://twitter.com/ygoex",
-        "codepen": "https://codepen.io/ygoex",
-        "dribbble": "https://dribbble.com/ygoex",
-        "behance": "https://www.behance.net/ygoex",
-        "linkedin": "https://www.linkedin.com/in/ygoex/"
+        "name": "Mike Walker",
+        "email": "mike@portlr.com",
+        "username": "Mike",
+        "url": "https://portlr.netlify.app/about-me/",
+        "github": "https://github.com/mike",
+        "twitter": "https://twitter.com/mike",
+        "codepen": "https://codepen.io/mike",
+        "dribbble": "https://dribbble.com/mike",
+        "behance": "https://www.behance.net/mike",
+        "linkedin": "https://www.linkedin.com/in/mike-walker-817b1038//"
     }
 }

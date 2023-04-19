@@ -27,8 +27,9 @@ h1,
     // https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/
     // See also: https://fluid-typography.netlify.app/
     // The unquote function is necessary to about the following error on Sass compilation --> "Incompatible units: 'rem' and 'vw'."
-    font-size: unquote("clamp(1.953rem, 8.3vw - 2rem, 3.052rem)");
+    font-size: unquote("clamp(2.953rem, 8.3vw - 2rem, 5.052rem)");
     line-height: 1.1;
+    font-family: Metropolis-ExtraBold;
     &>.direct-link {
         display: none;
     }
